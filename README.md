@@ -1,8 +1,8 @@
 # eCommerse-NYS
 We have two flows:
 
--Buyer/Customer
-I want to see all of the items available on the store
+- Buyer/Customer
+ - I want to see all of the items available on the store
 I want to able to search for item on the store by the name
 I want to able to filter items by the price or by category
 I want to add item to my Cart
