@@ -8,15 +8,15 @@ const linkToBage = document.querySelector(".input-field .linkToBage");
 loginButton.addEventListener("click", function () {
     if (inputUser.value === "Admin" && inputPassword.value === "Admin") {
 
-        linkToBage.href = "../Admin/admin.html"
+        linkToBage.href = "./admin.html"
 
     } else if (inputUser.value === "" || inputPassword.value === "") {
 
-        linkToBage.href = "../login/login.html"
+        linkToBage.href = "./index.html"
 
     } else {
 
-        linkToBage.href = "../user/user.html"
+        linkToBage.href = "./user.html"
     }
     inputUser.value = "";
 });
