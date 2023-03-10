@@ -3,7 +3,7 @@
 <h1>link Live Site : https://yasseramro0.github.io/eCommerse-GSG/ </h1>
 We have two flows:
 
-1- Buyer/Customer :bust_in_silhouette:
+1- Buyer/Customer :busts_in_silhouette:
 - I want to see all of the items available on the store
 - I want to able to search for item on the store by the name
 - I want to able to filter items by the price or by category
@@ -14,7 +14,7 @@ We have two flows:
 - I want to be able to disply the items either as a grid or a list
 
 
- 2- Seller :busts_in_silhouette:
+ 2- Seller :bust_in_silhouette:
    
 - I want to be able to add my product (name, detail, price, image[link], and category)
 -Should have the category as a list of options (dropdown menu)
