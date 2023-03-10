@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- normalize file  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main css File -->
+    <link rel="stylesheet" href="css/admin.css" />
+    <!-- for font awsome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- For font  -->
+  </head>
+  <body>
+    <header>
+      <h2>Admin</h2>
+      <input class="search" placeholder="Search"></input>
+      <div class="container">
+        <div class="edit-done">
+          <i class="fa-solid fa-pen-to-square"></i>
+          <!-- <i class="fa-solid fa-check"></i> -->
+        </div>
+        <div>
+          <label for="Name">Name</label
+          ><input
+            placeholder="Name of Product"
+            class="nameProduct"
+            id="Name"
+            type="text"
+          />
+        </div>
+        <div>
+          <label for="price">price</label
+          ><input
+            placeholder="Price of Product"
+            class="priceProduct"
+            id="price"
+            type="text"
+          />
+        </div>
+        <div>
+          <label for="photo">photo</label
+          ><input
+            placeholder="Git link of image"
+            id="photo"
+            class="photoProduct"
+            type="text"
+          />
+        </div>
+        <div>
+          <label for="category">category</label>
+          <select placeholder="category" id="category" class="category">
+            <option value="dirnks">dirnks</option>
+            <option value="apprtizers">apprtizers</option>
+            <option value="food">food</option>
+            <option value="dessert">dessert</option>
+          </select>
+        </div>
+        <div>
+          <input type="submit" class="add" value="add" />
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <script src="admin.js"></script>
+  </body>
+</html>

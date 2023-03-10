@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  user-select: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-of-page);
+  border-radius: 0.125rem;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  padding: 1rem 7rem;
+  background-image: url(../../images/backg-admin.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.5);
+  color: aliceblue;
+}
+img,
+picture,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  width: 100%;
+  aspect-ratio: 1;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+p {
+  overflow-wrap: break-word;
+  font-size: 1.125rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  color: aliceblue;
+}
+ol,
+ul {
+  list-style: none;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  padding-left: 0.6rem;
+  border-radius: 6px;
+  border-bottom: 2px solid #ff1919;
+}
+h2 {
+  font-family: cursive;
+  color: darksalmon;
+  position: absolute;
+}
+main {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  position: relative;
+}
+h4 {
+  margin: 0;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.img-discription {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 13%;
+  background-color: #f93f3f;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.fa-trash-can:before {
+  color: #be0000;
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  background-color: #252525;
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+.container {
+  display: flex;
+  gap: 1.5rem;
+  margin: auto;
+  align-items: center;
+  background-image: url(../../images/back-admin.png);
+  width: fit-content;
+  background-size: cover;
+  padding: 3rem 2rem;
+  background-position: bottom;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.container > div {
+  width: 300px;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container > div.edit-done {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 9%;
+  top: 40%;
+  width: fit-content;
+  cursor: pointer;
+}
+.edit-done i {
+  background-color: blueviolet;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.add {
+  margin: auto;
+  padding: 0.3rem 2rem;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 3px 2px 6px -1px beige;
+  background-image: linear-gradient(45deg, #6e5dac, #18c1f8);
+  color: aliceblue;
+}
+h4[contenteditable="true"],
+.price[contenteditable="true"] {
+  color: red;
+  background-color: #1c2225;
+  padding: 0.5rem 1rem;
+  height: fit-content;
+  margin: 6px;
+  border-radius: 5px;
+}
+.box .cate {
+  visibility: hidden;
+}
+
+.search {
+  height: 2rem;
+  border-radius: 16px;
+  position: absolute;
+  top: 8%;
+  right: 80px;
+  padding: 0 1rem;
+}
+/* for noor */
+/* .container > div label {
+  width: 62px;
+} */
